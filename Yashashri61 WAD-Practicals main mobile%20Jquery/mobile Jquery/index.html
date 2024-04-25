@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/jmb11.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div data-role="page" id="page" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1>Welcome!!!</h1>
+		</div>
+		<p>This the first page</p>
+		<div data-role="navbar" data-position="incline">
+
+			<a href="#page1">Form</a>
+			<a href="#page2">About us</a>
+			<a href="#menu">Menu</a>
+
+		</div>
+		
+		<div data-role="footer" id="page" data-theme="a">
+			<h1>KBTCOE</h1>
+
+		</div>
+
+
+	</div>
+	<div data-role="page1" id="page1" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1>Welcome!!!</h1>
+		</div>
+
+		<h2>Fill this form</h2>
+		<form>
+			<p>
+				<label>Username :
+					<input type="text" />Enter username</label>
+			</p>
+
+			<p>
+				<label>Password :
+					<input type="password" />Enter password</label>
+			</p>
+
+			<p>
+				<button type="submit">Submit</button>
+			</p>
+		</form>
+	</div>
+	<div data-role="page2" id="page2" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1>Welcome!!!</h1>
+		</div>
+		<h2>All about us</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum natus ut hic officiis praesentium voluptas
+			debitis soluta nesciunt, temporibus repellat, ratione libero, obcaecati minima harum quos ducimus. Esse,
+			eius nihil.</p>
+	</div>
+	<div data-role="menu" id="menu">
+		<h4>Menu</h4>
+
+		<p>Choose your branch</p>
+
+		<form>
+			<input type="radio" id="html" name="branch" value="Computer">
+			<label for="html">Computer</label><br>
+			<input type="radio" id="css" name="branch" value="IT">
+			<label for="css">IT</label><br>
+			<input type="radio" id="javascript" name="branch" value="Civil">
+			<label for="javascript">Civil</label>
+		</form>
+	</div>
+
+</body>
+
+</html>
